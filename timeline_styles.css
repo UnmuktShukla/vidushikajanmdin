@@ -1,0 +1,105 @@
+body{
+  margin: 0;
+}
+.song-baby{
+  position: absolute;
+  bottom: 40px;
+  left: 200px;
+  z-index: 3;
+  width: 10%;
+  height: 20px;
+  align-items: center;
+}
+.song-tod{
+  position: absolute;
+  top: 280px;
+  height: 20px;
+  left: 450px;
+  z-index: 3;
+  width: 10%;
+  align-items: center;
+}
+.song-ad{
+  position: absolute;
+  top: 290px;
+  height: 20px;
+  right: 150px;
+  z-index: 3;
+  width: 10%;
+  align-items: center;
+}
+.zero-5 img{
+  position: absolute;
+  width: 25%;
+  z-index: 0;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.zero-5 img:hover{
+  opacity: 1;
+}
+.fiver-10 img{
+  position: absolute;
+  left:360px;
+  width: 25%;
+  z-index: 0;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.fiver-10 img:hover{
+  opacity: 1;
+}
+.fif-20 img{
+  position: absolute;
+  right:0px;
+  width: 25%;
+  z-index: 0;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.fif-20 img:hover{
+  opacity: 1;
+}
+.number-1 img{
+  z-index: 1;
+  width: 14%;
+  position: absolute;
+  top: 355px;
+  left: 166px;
+  transform: rotate(0.5deg);
+}
+
+.number-02 img{
+  width: 15.9%;
+  position: absolute;
+  top: 345px;
+  left:350px;
+}
+.number-04 img{
+  width: 16.3%;
+  position: absolute;
+  top: 16.8px;
+  right: 132.5px;
+}
+.number-03 img{
+  width: 14%;
+  position: absolute;
+  top: 20px;
+  right: 353.5px;
+}
+
+.timeline-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+.timeline{
+  background-color: #101010;
+  width: 360px;
+  height: 100vh;
+  border-width: 10px;
+  border-color: white;
+  margin: 1px;
+}
