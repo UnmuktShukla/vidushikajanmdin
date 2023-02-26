@@ -1,0 +1,29 @@
+.heart{
+    position:relative;
+    z-index: 1;
+}
+
+.four{
+    position: absolute;
+    z-index: 2;
+    top:-25px;
+    width: 25%;
+    margin:40%;
+    margin-top: 52%;
+}
+
+.error{
+    position: absolute;
+    z-index: 2;
+    top:-95px;
+    width: 45%;
+    margin:25%;
+    margin-left: 35.5%;
+}
+
+/* body {
+    background-image: url('/Users/apple/Desktop/v/img/heartBG-01.svg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  } */
